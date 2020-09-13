@@ -1,0 +1,38 @@
+intext:accountkey windows.net filetype:config
+intext:storageaccountkey windows.net filetype:config
+intext:connectionstring windows.net filetype:config
+
+intext:accountkey blob filetype:config
+intext:storageaccountkey blob filetype:config
+intext:connectionstring blob filetype:config
+
+intext:accountkey windows.net filetype:xml
+intext:storageaccountkey windows.net filetype:xml
+intext:connectionstring windows.net filetype:xml
+
+intext:accountkey blob filetype:xml
+intext:storageaccountkey blob filetype:xml
+intext:connectionstring blob filetype:xml
+
+intext:accountkey windows.net filetype:txt
+intext:storageaccountkey windows.net filetype:txt
+intext:connectionstring windows.net filetype:txt
+
+intext:accountkey blob filetype:txt
+intext:storageaccountkey blob filetype:txt
+intext:connectionstring blob filetype:txt
+
+filetype:publishsettings -inurl:docs.microsoft.com
+intext:azure filetype:publishsettings -inurl:docs.microsoft.com
+intext:managementcertificate filetype:publishsettings -inurl:docs.microsoft.com
+
+intext:tokencache filetype:json
+intext:publishsettingsfileurl filetype:json
+intext:tenant filetype:json
+intext:managementportalurl filetype:json
+
+azure filetype:pfx -inurl:docs.microsoft.com
+azure filetype:cer -inurl:docs.microsoft.com
+azure filetype:cert -inurl:docs.microsoft.com
+
+filetype:cspkg
